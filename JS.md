@@ -328,7 +328,9 @@ function foo() {}
 // the arrow function way
 const foo = () =>;
 const foo = (param1 , param2)=> code goes here;
-___________;
+const foo = (param1, param2)=>{
+  Code here;
+};
 ```
 
 ### Iteration Methods
